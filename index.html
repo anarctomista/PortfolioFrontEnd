@@ -1,3 +1,195 @@
-<h1>Mi Portfolio
-    
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maquetado.html mód II</title>
+    <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/f5988b5b45.js" crossorigin="anonymous"></script>      
+  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
+     <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/IMG/a p logo.png" alt="logo argentina programa" width="35%" height="45%">
+        </a>
+       <ul class="list-group list-group-horizontal">
+        <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
+        <li class="list-group-item"><i class="fa-brands fa-facebook fa-2xl"></i></li>
+        <li class="list-group-item"><i class="fa-brands fa-linkedin-in fa-2xl"></i></li>
+            <!-- Button trigger modal -->
+        <li class="list-group-item">
+          <i class="fa-solid fa-circle-user fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">  
+          </i>
+        </li>
+       </ul>       
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><b>login</b></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label"><b>email</b></label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label"><b>contraseña</b></label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary"><br>iniciar sesión</br></button>
+      </div>
+    </div>
+  </div>
+ </div> 
+</div>
+    </nav>
+    <section id="sobre-mi" class="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-2">
+            <img src="assets/IMG/perfil walter gif.gif" class="rounded-circle w-100" alt="Walter Bishop" title="Walter Bishop">
+            <b>Walter Bishop</b> 
+          </div>
+          <div class="col-6 mt-5">
+            <h5><b>que muerda y vocifere vengadora<br>ya rodando en el polvo tu cabeza</b></h5>
+          </div>
+          <div class="col-4"></div>
+        </div>
+      </div>
+    </section>
+    <section id="experiencia" class="done">
+      <div class="row">
+        <div class="col-2">
+          <h2><span class="badge bg-secondary">Experiencia</span></h2>
+        </div>
+        <div class="col-1">
+          <i class="fa-sharp fa-solid fa-pen-to-square fa-2xl"></i>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-2">
+            <br><img src="assets/IMG/torchwood logo.jpg" class="rounded-circle w-50" alt="NASA logo" title="NASA logo">
+            <b>Torchwood Institute</b>
+          </div>
+          <div class="col-3"><br><br><b>jugábamos en el bosque<br>mientras el lobo no estaba</b> 
+          </div>
+          <div class="col-1"></div>
+          <div class="col-2">
+            <br><img src="assets/IMG/logo acme.jpg" class="rounded-circle w-50" alt="logo ACME" title="ACME corporation">
+            <br><b>ACME Corporation</b>
+          </div>
+          <div class="col-3"><br><br><b>jugábamos en el bosque<br>mientras el lobo no estaba</b>
+          </div>
+          <div class="col-1"></div>
+          <br><br><br><br><div class="col-2">
+            <img src="assets/IMG/T-shirt-Massive-Dynamic-Fringe.webp" class="rounded-circle w-50" alt="massive dynamic logo" title="massive dynamic">
+           <br> <b>Massive Dynamic</b>
+          </div>
+          <div class="col-3"><br><br><b>jugábamos en el bosque<br>mientras el lobo no estaba</b>
+          </div>
+          <div class="col-1"></div>  
+          <div class="col-2">
+            <img src="assets/IMG/planet express logo.jpg" class="rounded-circle w-50" alt="planet express" title="planet express logo">
+            <br><b>Planet Express</b>
+          </div>
+          <div class="col-3"><br><br><b>jugábamos en el bosque<br>mientras el lobo no estaba</b>
+          </div>
+          <div class="col-1"></div>
+        </div>
+    </section>
+    <section id="formación-académica" class="education">
+      <div class="row">
+        <div class="col-2">
+          <h2><span class="badge bg-secondary">Educación</span></h2>  
+        </div>
+        <div class="col-1">
+          <i class="fa-sharp fa-solid fa-pen-to-square fa-2xl"></i>
+        </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-2">
+            <img src="assets/IMG/universidad de la calle logo.png" class="rounded-circle w-50" alt="logo universidad de la calle" title="universidad de la calle">
+            <br><b>Universidad de la Calle</b>
+          </div>
+          <div class="col-3"><br><b>master en güevadas<br>inconmensurables</b>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-2">
+            <br><img src="assets/IMG/university live logo.jpg" class="rounded-circle w-50" alt="university live" title="university live">
+            <br><b>university live</b>
+          </div>
+          <div class="col-3"><br><b> licenciatura en estupideces <br>e incensateces</b>
+          </div>
+          <div class="col-1"></div>
+          <br><br><br><br><br><div class="col-2">
+          </div>
+      </div>
+    </section>
+    <section id="conocimientos" class="skills">
+      <div class="row">
+        <div class="col-2">
+          <h2><span class="badge bg-secondary">conocimientos<br>y habilidades</span></h2>
+        </div>
+        <div class="col-1">
+          <i class="fa-sharp fa-solid fa-pen-to-square fa-2xl"></i>
+        </div>  
+        <div class="row d-flex justify-content-center mt-100">
+          <div class="col-md-6">
+              <div class="progress blue">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                <div class="progress-value">90%</div>
+              </div>
+              <br><br><br><br><h5><b>habilidad 1</b></h5>
+                <div class="progress yellow">
+                <span class="progress-left">
+                  <span class="progress-bar"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar"></span>
+                </span>
+                  <div class="progress-value">37.5%</div>
+                </div>
+                <br><br><br><br><h5><b>habilidad 2</b></h5>   
+          </div> 
+        </div>   
+      </div>   
+    </section>
+    <section id="proyectos" class="to-do">
+      <div class="row">
+        <div class="col-2">
+          <button type="button" class="btn btn-danger"><h4> proyectos</h4></button> 
+        </div>
+        <div class="col-1">
+          <i class="fa-sharp fa-solid fa-pen-to-square fa-2xl"></i>
+        </div> 
+      </div>
+        <ul class="proyectos">
+          <li><a class="proyectos" href="assets/IMG/proyecto.jpg"><button type="button" class="btn btn-warning">proyecto 1</button></a></a></li>
+          <li><a class="proyectos" href="assets/IMG/proyecto_2.jpg"><button type="button" class="btn btn-warning">proyecto 2</button></a></li>
+          <li><a class="proyectos" href="assets/IMG/proyecto_3.jpg"><button type="button" class="btn btn-warning">proyecto 3</button></a></li>
+        </ul>
+      </div>
+   
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+</body>
+</html>
